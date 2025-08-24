@@ -1,6 +1,6 @@
 import random
-print("Lets play Rock paper Scissors")
-print("two players secretly pick one of “rock,” “paper,” or “scissors.”\nBoth players reveal their selection to the other player at once; the winner is chosen based on what the selections are.\n Rock beats scissors (by crushing them); \n scissors beats paper (by cutting it); and paper beats rock (by covering it).\n If both players select the same one, it is a tie.\n\n")
+print("Lets play Rock paper Scissors.you play with the computer")
+print("two players secretly pick one of “rock,” “paper,” or “scissors.”\nBoth players reveal their selection to the other player at once; the winner is chosen based on what the selections are.\n Rock beats scissors (by crushing them); \n scissors beats paper (by cutting it); and paper beats rock (by covering it).\n If both players select the same one, it is a tie.\n\n ")
 
 print ("Enter the selection amoung rock , paper and scissor(enter in lower case with no spaces)\n")
 player = input()
