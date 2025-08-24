@@ -8,9 +8,13 @@ options = ["rock","paper","scissor"]
 computer = random.choice(options)
 
 print(" player =",player,"\n computer = ",computer,"\n")
-if (player == computer):
-    print("it's a tie")
-elif ((player == "rock" and computer == "scissor" ) or (player == "scissor" and computer == "paper") or (player == "paper" and computer == "rock" ) ):
+while (player == computer):
+    print("it's a tie, lets rematch")
+    print ("Enter the selection amoung rock , paper and scissor(enter in lower case with no spaces)\n")
+    player = input()
+    options = ["rock","paper","scissor"]
+    computer = random.choice(options)
+if ((player == "rock" and computer == "scissor" ) or (player == "scissor" and computer == "paper") or (player == "paper" and computer == "rock" ) ):
     print("Player wins")
 else:
     print("Computer wins")
